@@ -2,3 +2,9 @@
     color: $white;
     
 }
+
+.Search:before{
+    content: "\f002";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}

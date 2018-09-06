@@ -48,14 +48,46 @@ $spacers: map-merge(
 		3: $spacer,
 		4: ($spacer * 1,5),
 		5: ($spacer * 3),
+		9: 9px,
+		10: 10px,
+		15: 15px,
+		12: 12px,
+		20: 20px,
+		24: 24px,
 		30: 30px,
+		40: 40px,
 		60: 60px,
 		120: 120px,
 		170: 170px,
+		25: 25px,
+		90: 5rem
 		),
 	$spacers
 	);
 
+//size
+
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    80: 80%,
+    45: 45%,
+    100: 100%,
+    120: 120px,
+    35: 35px,
+    30: 30px,
+    16: 16px,
+    178: 180px,
+    38: 80px,
+    270: 270px,
+    auto: auto
+  ),
+  $sizes
+);
 
 
 //Cards

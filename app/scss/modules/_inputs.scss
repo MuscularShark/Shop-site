@@ -3,3 +3,10 @@
     font-size: $font-size-my-md;
     
 }
+
+.form-block{
+    width: 75%;
+    @media(min-width: 568px){
+        width: 50%;
+    }
+}
