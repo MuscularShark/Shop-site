@@ -3,8 +3,13 @@
     
 }
 
-.Search:before{
-    content: "\f002";
-    font-family: "FontAwesome";
-    padding-right: 10px;
+.info-inner-user .user-data .dropdown .btn {
+	padding: 0;
+	background: white;
+	border:none;
+		span{
+			font-size: 14px;
+			font-weight: 500;
+		}
+	
 }

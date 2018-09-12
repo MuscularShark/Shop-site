@@ -2,11 +2,25 @@
 $primary: #8bc34a;
 $secondary: #e74c3c;
 $dark: #263238;
-$grey-900: #707070;
+$gray-900: #707070;
 $grey-800: #b5b5b5;
+$gray-700: #e0e0e0;
+$gray-600: #b0bec5;
+$gray-500: #d9e0e3;
+$orange: #ffa726;
 $green: $primary;
 $red: $secondary;
 $cyan: #546e7a;
+$nero: #263238;
+$dark-green: #76ae36;
+$facebook: #3b5998;
+$twit: #55acee;
+$youtube: #e52d27;
+$pin: #e52d27;
+$in: #1565c0;
+
+
+
 
 //Fonts
 $font-family-sans-serif: 'Roboto', sans-serif;
@@ -27,6 +41,7 @@ $font-size-my-xs: 11px;
 
 
 $small-font-size: 87.5%;
+$font-weight-medium: 500;
 
 $headings-color: $dark;
 
@@ -55,12 +70,16 @@ $spacers: map-merge(
 		20: 20px,
 		24: 24px,
 		30: 30px,
+		35: 35px,
 		40: 40px,
+		45: 45px,
 		60: 60px,
+		90: 90px,
+		110: 110px,
 		120: 120px,
+		130: 130px,
 		170: 170px,
 		25: 25px,
-		90: 5rem
 		),
 	$spacers
 	);
@@ -92,7 +111,9 @@ $sizes: map-merge(
 
 //Cards
 $card-spacer-y: 0.35rem;
-
+$card-spacer-x: 1.8rem;
+$card-spacer-x-top: 1.7rem;
+$card-spacer-x-bt: 0.6rem;
 //Links
 $link-hover-color: $cyan;
 $link-hover-decoration: none;

@@ -7,658 +7,860 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/et-line.css">
+	<meta name= viewport content="width=device-width height=device-height user-scalable=yes">
 </head>
 <body>
 	<header>
-		<section class="pt-3 pb-3">
-			<div class="container d-flex ">
-				<div class="col-lg-2 col-md-9 mr-xl-5 mr-lg-5">
-					<img src="img/logo.png" alt="#">
-				</div>
-				<div class="col-lg-6 d-lg-flex d-md-none align-items-center justify-content-end mr-3">
-					<p class="small">
-						<span class="text-secondary font-weight-bold">Need help?</span> <span>Talk to an expert:</span> <a class="text-dark" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
-					</p>
-				</div>
-				<div class="shopping-cart d-flex align-items-center w-10 h-10 d-flex justify-content-center  position-relative">
-					
-				</div>
-				<div class="col-lg-3 col-md-4 ">
-					<div class="position-absolute toBuy w-16 h-16 d-flex justify-content-center align-items-center">8</div>
-					<i class="fa fa-shopping-cart pr-2"></i>
-					<a href="#" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#exampleModalCenter">Login</a>
-					<!-- Modal -->
-					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-						<div class="modal-dialog modal-dialog-centered " role="document">
-							<div class="modal-content bg-primary">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span class="text-white" aria-hidden="true">&times;</span>
-									</button>
-									<div class="container">
+		<section class="header-inner">
+			<div class="top-panel">
+				<div class="container">
+					<div class="row align-items-center flex-xl-row flex-column mb-2 mb-xl-0">
+						<a class="navbar-brand " href="#">
+							<img src="img/logo.png" alt="logo">
+						</a>
+						<div class="col-xl-10">
+							<div class="account-information d-flex flex-wrap justify-content-center justify-content-xl-end align-items-center">
+								<div class="info-inner pb-2 pb-sm-0">
+									<p class="d-xl-flex justify-content-center d-none"><span class="text-danger">Need help?</span><span>Talk to an expert: <a class="black" href="callto:+61383766284">+61 3 8376 6284</a></span></p>
+								</div>
+								<div class="info-inner messages-block">
+									<div class="dropdown advice">
+										<button class="btn btn-light btn-round" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="fa fa-bell-o"></span>
+											<span class="badge badge-warning">8</span>
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-title text-primary">
+														Need WP Help?!
+													</div>
+													<p class="message-data">01 Dec, 2016</p>
+												</div>
+												<span class="message-notificdtion fa fa-bell-o"></span>
+											</a>
 
-										<h2 class="text-center text-white" id="exampleModalLongTitle">LOGIN</h2>
-										<div class="row mt-40">
-											<div class="col-12">
-												<input type="email" class="form-control mb-9" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-												<input type="password" class="form-control mb-3" id="exampleInputPassword1" placeholder="Password">
-												<button type="button" class="btn btn-white" data-dismiss="modal">Sumbit</button>
-												<button type="button" class="btn btn-primary">Create An Account?</button>
-												<a href=""><small id="emailHelp" class="form-text text-muted mt-3">Lost Password?</small></a>
+											<a class="dropdown-item" href="#">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-title text-primary">
+														Need WP Help?!
+													</div>
+													<p class="message-data">26 Nov, 2016</p>
+												</div>
+												<span class="message-notificdtion fa fa-bell-o"></span>
+											</a>
+
+											<a class="dropdown-item" href="#">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-title text-primary">
+														Psd Template H
+													</div>
+													<p class="message-data">26 Nov, 2016</p>
+												</div>
+												<span class="message-notificdtion fa fa-bell-o"></span>
+											</a>
+
+										</div>
+									</div>
+
+
+									<div class="dropdown mail">
+										<button class="btn btn-light btn-round" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="fa fa-envelope-o"></span>
+											<span class="badge badge-info">4</span>
+										</button>
+
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<div class="dropdown-item">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-author">
+														<a href="#">Kazi Fahim</a>
+													</div>
+													<p class="remark">Need WP Help!</p>
+													<p class="message-data">01 Dec, 2016</p>
+												</div>
+												<span class="message-notificdtion fa fa-envelope-o"></span>
+											</div>
+
+											<div class="dropdown-item">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-author">
+														<a href="#">Richi Lenal</a>
+													</div>
+													<p class="remark">Need WP Help!</p>
+													<p class="message-data">26 Nov, 2016</p>
+												</div>
+												<span class="message-notificdtion fa fa-envelope-o"></span>
+											</div>
+
+											<div class="dropdown-item">
+												<div class="img-wrapper">
+													<img src="#" alt="Face">
+												</div>
+												<div class="notification">
+													<div class="message-author">
+														<a href="#">PsdBosS</a>
+													</div>
+													<p class="remark">Psd Template Help!</p>
+													<p class="message-data">26 Nov, 2016</p>
+												</div>
+												<span class="message-notificdtion fa  fa-mail-reply"></span>
 											</div>
 										</div>
 									</div>
-									
+
+									<div class="dropdown acquiring">
+										<button class="btn btn-light btn-round" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="fa fa-shopping-cart"></span>
+											<span class="badge badge-primary">6</span>
+										</button>
+
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+											<div class="dropdown-item">
+												<div class="img-wrapper-rectangle">
+													<img src="#" alt="Sempl">
+												</div>
+												<div class="notification">
+													<div class="purchase-sample text-primary">
+														<a href="#" class="text-dark">Grand Ballet</a>
+													</div>
+													<p class="platform-type">WordPress</p>
+													<p class="h6">$59</p>
+												</div>
+											</div>
+
+											<div class="dropdown-item">
+												<div class="img-wrapper-rectangle">
+													<img src="images/template-6.jpg" alt="Sempl">
+												</div>
+												<div class="notification">
+													<div class="purchase-sample text-primary">
+														<a href="#" class="text-dark">Apple Device</a>
+													</div>
+													<p class="platform-type">WordPress</p>
+													<p class="h6">$59</p>
+												</div>
+											</div>
+
+											<div class="dropdown-item flex-col">
+												<div class="sum">
+													<p class="h6">Total</p>
+													<p class="h6">$118</p>
+												</div>
+												<div class="btn-groupe">
+													<a href="#" class="btn btn-primary">Go to Cart</a>
+													<a href="#" class="btn btn-secondary">Go to Checkout</a>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								
+								<div class="info-inner user d-flex align-items-center">
+									<div class="user-logo"></div>
+									<div class="user-data">
+										<div class="dropdown">
+											<button class="btn py-0 px-0" type="button"  data-toggle="dropdown">Mike Hussy <span class="fa fa-angle-down"></span>
+											</button>
+											<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+												<a class="dropdown-item" href="#">Profile Page</a>
+												<a class="dropdown-item" href="#">Portfolio</a>
+												<a class="dropdown-item" href="#">Account Setting</a>
+												<a class="dropdown-item" href="#">Downloads</a>
+												<a class="dropdown-item" href="#">Wishlist</a>
+												<a class="dropdown-item" href="#">Upload Item</a>
+												<a class="dropdown-item" href="#">Statement</a>
+												<a class="dropdown-item" href="#">Withdraws</a>
+											</div>
+										</div>
+										<div class="value text-primary">$171.00</div>
+									</div>	
+								</div>
+								<div class="info-inner ml-25 mt-2 mt-sm-0">
+									<a class="btn btn-primary btn-account px-20" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered" role="document">
+											<div class="modal-content bg-primary">
+												<div class="modal-body">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span class="text-white" aria-hidden="true">&times;</span>
+													</button>
+													<div class="container">
+
+														<h2 class="text-center text-white pt-90 pb-45" id="exampleModalLongTitle">LOGIN</h2>
+														<form class="">
+															<div class="form-control-wrapper mb-10">
+																<i class="fa fa-user text-white ml-15"></i>
+																<input class="form-login" placeholder="Name" type="text">
+															</div>	
+															<div class="form-control-wrapper mb-20">
+																<i class="fa fa-lock text-white ml-15"></i>
+																<input class="form-login" placeholder="Password" type="password">
+															</div>					
+
+															<div class="d-flex justify-content-start mb-30">
+																<button class="btn btn-login " type="submit" value="Login">Submit</button>
+																<a class="btn btn-regist" href="#"><i class="fa fa-edit mr-10"></i>Creat An Account?</a>	
+															</div>
+															<div class="d-flex justify-content-start justify-content-lg-start mb-110">
+																<a class="lost-password text-white" href="#">Lost Password?</a>
+															</div>					
+														</form>			
+													</div>
+
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<a class="btn btn-secondary btn-account">Register</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<a href="#" class="btn btn-secondary btn-lg ml-lg-3">Register</a>
+				</div>
+			</div>
+			<div class="navigation navbar-dark bg-dark">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+							<i class="fa fa-bars text-white"></i>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item  mr-15 active">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">About</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">WordPress</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Joomla</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">PSD</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Plugins</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Components</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Pages</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+								<li class="nav-item ml-15 mr-15">
+									<a class="nav-link" href="#">Help</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</section>
-		<div class="navbar-wrappeer pt-lg-2 pb-lg-2 pt-xs-25 bg-dark">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg justify-content-lg-start justify-content-md-left">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
-						<i class="fa fa-bars text-white"></i>
-					</button>
-					<div class="collapse navbar-collapse" id="navbar1">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active pr-lg-3 "><a class="nav-link text-white" href="#">Home</a></li>	
-							<li class="nav-item pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">About</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Wordpress</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Joomla</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">PSD</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Plugins</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Components</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Pages</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Conctact</a></li>
-							<li class="nav-item  pr-lg-3 pl-lg-3"><a class="nav-link text-white" href="#">Help</a></li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-
-		<section class="shape-1 d-flex flex-column justify-content-center align-items-center pt-170 pb-170">
+		
+		<section class="shape-1 d-flex flex-column justify-content-center align-items-center pt-120 pb-120">
 			<h1 class="text-center text-white font-weight-bold mb-3 mt-5">Welcome To Foxtar Market Place</h1>
 			<h6 class="text-center text-white pb-5">Premium WordPress Themes, Web Templates and Many More ...</h6>
 			<div class="col-4">
 				<div class="position-relative ">
 					<input type="search" class="form-control form-control-lg mb-5" placeholder="Search Your Keywords ...">
-					<i class="fa fa-search position-absolute"></i>
+					<i class="fa fa-search position-absolute mr-20 d-none d-lg-flex"></i>
 				</div>
 			</div>
 		</section>
 	</header>
-	<section class="pt-120 bg-isotope ">
-		<h2 class="text-center">Let’s Check Out Our Newest Release Prodcuts</h2>
-		<div class="button-group  filter-button-group text-center mb-60 mt-60 ">
-			<button class="button is-checked btn rounded-0 font-weight-bold" data-filter="*">All</button>
-			<button class="button btn rounded-0 font-weight-bold" data-filter=".WordPress">WordPress</button>
-			<button class="button btn rounded-0 font-weight-bold" data-filter=".Joomla">Joomla</button>
-			<button class="button btn rounded-0 font-weight-bold" data-filter=".Plugins">Plugins</button>
-			<button class="button btn rounded-0 font-weight-bold" data-filter=".Component">Component</button>
-			<button class="button btn rounded-0 font-weight-bold" data-filter=".PSD">PSD</button>
-		</div>
-		<div class="grid">
+
+	<div class="main">
+		<section class="pt-120 bg-isotope ">
+			<h2 class="text-center">Let’s Check Out Our Newest Release Prodcuts</h2>
+			<div class="button-group  filter-button-group text-center mb-60 mt-60 ">
+				<button class="button is-checked btn rounded-0 font-weight-bold" data-filter="*">All</button>
+				<button class="button btn rounded-0 font-weight-bold" data-filter=".WordPress">WordPress</button>
+				<button class="button btn rounded-0 font-weight-bold" data-filter=".Joomla">Joomla</button>
+				<button class="button btn rounded-0 font-weight-bold" data-filter=".Plugins">Plugins</button>
+				<button class="button btn rounded-0 font-weight-bold" data-filter=".Component">Component</button>
+				<button class="button btn rounded-0 font-weight-bold" data-filter=".PSD">PSD</button>
+			</div>
+			<div class="grid">
+				<div class="container">
+					<div class="row ">
+						<div class="grid-item Component">
+							<div class="col-lg">
+								<div class="card w-100 mb-30" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="grid-item Component">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item WordPress">
+							<div class="col-lg">
+								<div class="card w-100" style="width: 18rem;">
+
+									<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+									<div class="card-body">
+										<div class="card-body-inner">
+											<h5 class="card-title">The Post Grig Pro</h5>
+											<a href="" class="card-cat small">WordPress</a>
+										</div>
+										<div class="card-price h4">$15</div>
+									</div>
+
+									<div class="card-footer">
+										<div class="card-author">
+											<span class="card-author-img"></span> 
+											<a href="" class="card-author-name small">PsdBosS</a>
+										</div>
+										<div class="card-rating">
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o marked"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-icon fa fa-star-o"></span>
+											<span class="card-rating-value">(05)</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center pt-60 pb-120">
+				<a href="#" class="btn btn-light btn-white rounded-0">All New Items</a>
+				<a href="#" class="btn btn-light btn-white rounded-0">Popular Items</a>
+			</div>
+		</section>
+
+		<section class="pt-120">
+			<h2 class="text-center pb-60">This Week Trending Products</h2>
+			<div class="owl-carousel">
+				<div class="col-lg">
+					<div class="card w-100" style="width: 18rem;">
+
+						<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+						<div class="card-body">
+							<div class="card-body-inner">
+								<h5 class="card-title">The Post Grig Pro</h5>
+								<a href="" class="card-cat small">WordPress</a>
+							</div>
+							<div class="card-price h4">$15</div>
+						</div>
+
+						<div class="card-footer">
+							<div class="card-author">
+								<span class="card-author-img"></span> 
+								<a href="" class="card-author-name small">PsdBosS</a>
+							</div>
+							<div class="card-rating">
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-value">(05)</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card w-100" style="width: 18rem;">
+
+						<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+						<div class="card-body">
+							<div class="card-body-inner">
+								<h5 class="card-title">The Post Grig Pro</h5>
+								<a href="" class="card-cat small">WordPress</a>
+							</div>
+							<div class="card-price h4">$15</div>
+						</div>
+
+						<div class="card-footer">
+							<div class="card-author">
+								<span class="card-author-img"></span> 
+								<a href="" class="card-author-name small">PsdBosS</a>
+							</div>
+							<div class="card-rating">
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-value">(05)</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card w-100" style="width: 18rem;">
+
+						<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+						<div class="card-body">
+							<div class="card-body-inner">
+								<h5 class="card-title">The Post Grig Pro</h5>
+								<a href="" class="card-cat small">WordPress</a>
+							</div>
+							<div class="card-price h4">$15</div>
+						</div>
+
+						<div class="card-footer">
+							<div class="card-author">
+								<span class="card-author-img"></span> 
+								<a href="" class="card-author-name small">PsdBosS</a>
+							</div>
+							<div class="card-rating">
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-value">(05)</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card w-100" style="width: 18rem;">
+
+						<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+						<div class="card-body">
+							<div class="card-body-inner">
+								<h5 class="card-title">The Post Grig Pro</h5>
+								<a href="" class="card-cat small">WordPress</a>
+							</div>
+							<div class="card-price h4">$15</div>
+						</div>
+
+						<div class="card-footer">
+							<div class="card-author">
+								<span class="card-author-img"></span> 
+								<a href="" class="card-author-name small">PsdBosS</a>
+							</div>
+							<div class="card-rating">
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-value">(05)</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card w-100" style="width: 18rem;">
+
+						<img class="card-img-top" src="img/template-1.jpg" alt="template">
+
+
+						<div class="card-body">
+							<div class="card-body-inner">
+								<h5 class="card-title">The Post Grig Pro</h5>
+								<a href="" class="card-cat small">WordPress</a>
+							</div>
+							<div class="card-price h4">$15</div>
+						</div>
+
+						<div class="card-footer">
+							<div class="card-author">
+								<span class="card-author-img"></span> 
+								<a href="" class="card-author-name small">PsdBosS</a>
+							</div>
+							<div class="card-rating">
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o marked"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-icon fa fa-star-o"></span>
+								<span class="card-rating-value">(05)</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="bg-dark text-center mb-20">
 			<div class="container">
+				<h2 class="text-white pt-120">Why You Choose Foxtar Market Place?</h2>
 				<div class="row ">
-					<div class="grid-item Component">
-						<div class="col-lg">
-							<div class="card w-100 mb-30" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
-							</div>
+					<div class="col-xs-10 col-md-6 col-lg-4">
+						<div class="service pb-130 mt-90">
+							<div class="service-img  mx-auto mb-35">	
+							</div>					
+							<a class="service-header h3 text-white" href="single-product.html">Easily Buy & Sell</a>
+							<p class="service-text mt-20">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p>
 						</div>
 					</div>
-
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
+					<div class="col-xs-10 col-md-6 col-lg-4">
+						<div class="service  mt-90">
+							<div class="service-img mx-auto mb-35">	
 							</div>
+							<a class="service-header h3 text-white" href="#">Quality Products</a>
+							<p class="service-text mt-20">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p>
 						</div>
 					</div>
-
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
+					<div class="col-xs-10 col-md-6 col-lg-4">
+						<div class="service mt-90">
+							<div class="service-img  mx-auto mb-35">
 							</div>
-						</div>
-					</div>
-
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
-							</div>
+							<a class="service-header h3 text-white" href="#">100% Secure Payment</a>
+							<p class="service-text mt-20">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p>
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<section class="bg-dark ">
+			<div class="container ">
 				<div class="row">
-					<div class="grid-item Component">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
-							</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="footer-block pt-120">
+							<h4 class="footer-block-title text-white pb-10">About Company</h4>
+							<p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse. Fusce sit amet urna iat. Praesent vel rutrum purus.</p>
+							<ul class="company-address">
+								<li class="d-flex">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+									<p class="company-address-inf">PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+								</li>
+								<li>
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									<a href="callto:+61383766284">+61 3 8376 6284</a>
+								</li>
+							</ul>
 						</div>
 					</div>
-
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-
-							</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="footer-block pt-120">
+							<h4 class="footer-block-title text-white pb-10">Join Our Community</h4>								
+							<ul class="navigaton_footer">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Forums</a></li>
+								<li><a href="#">Become an Author</a></li>
+								<li><a href="#">Community Meetups</a></li>
+								<li><a href="#">Become an Affiliate</a></li>
+							</ul>
 						</div>
 					</div>
-
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-								
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-								
-								
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
-								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-								
-							</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="footer-block pt-120">
+							<h4 class="footer-block-title text-white pb-10">Need Help?</h4>
+							<ul class="navigaton_footer">
+								<li class="listing-item"><a href="#">Help Center</a></li>
+								<li class="listing-item"><a href="#">Foxtar Market Terms</a></li>
+								<li class="listing-item"><a href="#">Author Terms</a></li>
+								<li class="listing-item"><a href="#">Foxtar Licenses</a></li>
+								<li class="listing-item"><a href="#">Contact Us</a></li>
+							</ul>
 						</div>
 					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="footer-block pt-120">
+							<h4 class="footer-block-title text-white pb-10">Follow Us On</h4>
+							<!-- Social -->
+							<ul class="social_footer d-flex">
+								<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
 
-					<div class="grid-item WordPress">
-						<div class="col-lg">
-							<div class="card w-100" style="width: 18rem;">
-								
-								<img class="card-img-top" src="img/template-1.jpg" alt="template">
-								
-								
-								<div class="card-body">
-									<div class="card-body-inner">
-										<h5 class="card-title">The Post Grig Pro</h5>
-										<a href="" class="card-cat small">WordPress</a>
-									</div>
-									<div class="card-price h4">$15</div>
+							<form>
+								<h4 class="text-white font-weight-regular text-white">Newsletter Sign Up!</h4>
+								<div class="d-flex">
+									<input type="email" class="input-email w-100" placeholder="E-mail address">
+									<button type="submit" class="input-sign"><i class="fa fa-paper-plane"></i></button>
 								</div>
-
-								<div class="card-footer">
-									<div class="card-author">
-										<span class="card-author-img"></span> 
-										<a href="" class="card-author-name small">PsdBosS</a>
-									</div>
-									<div class="card-rating">
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o marked"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-icon fa fa-star-o"></span>
-										<span class="card-rating-value">(05)</span>
-									</div>
-								</div>
-								
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="text-center pt-60 pb-120">
-			<a href="#" class="btn btn-light btn-white rounded-0">All New Items</a>
-			<a href="#" class="btn btn-light btn-white rounded-0">Popular Items</a>
-		</div>
-	</section>
-
-	<section class="pt-120">
-		<h2 class="text-center pb-60">This Week Trending Products</h2>
-		<div class="owl-carousel">
-			<div class="col-lg">
-				<div class="card w-100" style="width: 18rem;">
-
-					<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-					<div class="card-body">
-						<div class="card-body-inner">
-							<h5 class="card-title">The Post Grig Pro</h5>
-							<a href="" class="card-cat small">WordPress</a>
-						</div>
-						<div class="card-price h4">$15</div>
-					</div>
-
-					<div class="card-footer">
-						<div class="card-author">
-							<span class="card-author-img"></span> 
-							<a href="" class="card-author-name small">PsdBosS</a>
-						</div>
-						<div class="card-rating">
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-value">(05)</span>
-						</div>
-					</div>
-
-				</div>
+			<div class="copyright text-center mt-90 pb-20">
+				<p>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
 			</div>
-			<div class="col-lg">
-				<div class="card w-100" style="width: 18rem;">
+		</section>
+	</footer>
 
-					<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-					<div class="card-body">
-						<div class="card-body-inner">
-							<h5 class="card-title">The Post Grig Pro</h5>
-							<a href="" class="card-cat small">WordPress</a>
-						</div>
-						<div class="card-price h4">$15</div>
-					</div>
-
-					<div class="card-footer">
-						<div class="card-author">
-							<span class="card-author-img"></span> 
-							<a href="" class="card-author-name small">PsdBosS</a>
-						</div>
-						<div class="card-rating">
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-value">(05)</span>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-lg">
-				<div class="card w-100" style="width: 18rem;">
-
-					<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-					<div class="card-body">
-						<div class="card-body-inner">
-							<h5 class="card-title">The Post Grig Pro</h5>
-							<a href="" class="card-cat small">WordPress</a>
-						</div>
-						<div class="card-price h4">$15</div>
-					</div>
-
-					<div class="card-footer">
-						<div class="card-author">
-							<span class="card-author-img"></span> 
-							<a href="" class="card-author-name small">PsdBosS</a>
-						</div>
-						<div class="card-rating">
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-value">(05)</span>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-lg">
-				<div class="card w-100" style="width: 18rem;">
-
-					<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-					<div class="card-body">
-						<div class="card-body-inner">
-							<h5 class="card-title">The Post Grig Pro</h5>
-							<a href="" class="card-cat small">WordPress</a>
-						</div>
-						<div class="card-price h4">$15</div>
-					</div>
-
-					<div class="card-footer">
-						<div class="card-author">
-							<span class="card-author-img"></span> 
-							<a href="" class="card-author-name small">PsdBosS</a>
-						</div>
-						<div class="card-rating">
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-value">(05)</span>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-lg">
-				<div class="card w-100" style="width: 18rem;">
-
-					<img class="card-img-top" src="img/template-1.jpg" alt="template">
-
-
-					<div class="card-body">
-						<div class="card-body-inner">
-							<h5 class="card-title">The Post Grig Pro</h5>
-							<a href="" class="card-cat small">WordPress</a>
-						</div>
-						<div class="card-price h4">$15</div>
-					</div>
-
-					<div class="card-footer">
-						<div class="card-author">
-							<span class="card-author-img"></span> 
-							<a href="" class="card-author-name small">PsdBosS</a>
-						</div>
-						<div class="card-rating">
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o marked"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-icon fa fa-star-o"></span>
-							<span class="card-rating-value">(05)</span>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-	</section>
-<!-- 	<section class="py-5 py-lg-120">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg">
-					<div class="card w-100" style="width: 18rem;">
-						
-						<img class="card-img-top" src="img/template-1.jpg" alt="template">
-						
-						
-						<div class="card-body">
-							<div class="card-body-inner">
-								<h5 class="card-title">The Post Grig Pro</h5>
-								<a href="" class="card-cat small">WordPress</a>
-							</div>
-							<div class="card-price h4">$15</div>
-						</div>
-
-						<div class="card-footer">
-							<div class="card-author">
-								<span class="card-author-img"></span> 
-								<a href="" class="card-author-name small">PsdBosS</a>
-							</div>
-							<div class="card-rating">
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-value">(05)</span>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-
-				
-
-				<div class="col-lg">
-					<div class="card w-100" style="width: 18rem;">
-						
-						<img class="card-img-top" src="img/template-1.jpg" alt="template">
-						
-						
-						<div class="card-body">
-							<div class="card-body-inner">
-								<h5 class="card-title">The Post Grig Pro</h5>
-								<a href="" class="card-cat small">WordPress</a>
-							</div>
-							<div class="card-price h4">$15</div>
-						</div>
-
-						<div class="card-footer">
-							<div class="card-author">
-								<span class="card-author-img"></span> 
-								<a href="" class="card-author-name small">PsdBosS</a>
-							</div>
-							<div class="card-rating">
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-value">(05)</span>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-
-				<div class="col-lg">
-					<div class="card w-100" style="width: 18rem;">
-						
-						<img class="card-img-top" src="img/template-1.jpg" alt="template">
-						
-						
-						<div class="card-body">
-							<div class="card-body-inner">
-								<h5 class="card-title">The Post Grig Pro</h5>
-								<a href="" class="card-cat small">WordPress</a>
-							</div>
-							<div class="card-price h4">$15</div>
-						</div>
-
-						<div class="card-footer">
-							<div class="card-author">
-								<span class="card-author-img"></span> 
-								<a href="" class="card-author-name small">PsdBosS</a>
-							</div>
-							<div class="card-rating">
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o marked"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-icon fa fa-star-o"></span>
-								<span class="card-rating-value">(05)</span>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-	</section>
--->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

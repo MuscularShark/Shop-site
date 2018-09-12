@@ -1,0 +1,241 @@
+.top-panel{
+	padding-top: 18px;
+	padding-bottom: 1rem;
+}
+
+.account-information{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-left: -1rem;
+	margin-bottom: -1rem;
+
+	.info-inner{
+		font-size: 15px;
+
+		.info-phone,
+		.info-notify{
+			color: $cyan;			
+		}
+
+		.info-phone:hover{
+			color: $primary;
+		}
+
+		.btn-account{
+			font-size: $font-size-sm;
+			color: $white;
+			margin: 2px; 
+
+			&.btn-primary:hover{
+				background-color: transparent;
+				border: $border-width solid $primary;
+				color: $primary;
+			}
+
+			&.btn-secondary:hover{
+				background-color: transparent;
+				border: $border-width solid $secondary;
+				color: $secondary;
+			}
+		}
+	}
+
+	.info-block{
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.messages-block{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.btn{
+			position: relative;
+			border-radius: 50%;
+			font-size: 14px;
+			padding: 0;
+			width: 34px;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			margin-left: 3px;
+			margin-right: 3px; 
+
+			&:hover{
+				color: $dark;
+			}  
+
+			.badge{
+				position: absolute;
+				border-radius: 50%;
+				color: $white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 11px;
+				font-weight: 600;
+				top: -10px;
+				right: -5px;
+			}
+		}
+
+		.dropdown{
+			margin-left: 4px;
+			margin-right: 4px;
+		}
+
+		.dropdown-item .btn{
+			border-radius: 0;
+			width: auto;
+			height: auto;
+			color: $white;
+
+			&.btn-primary:hover{
+				background-color: $white;
+				border: $border-width solid $primary;
+				color: $primary;
+			}
+
+			&.btn-secondary:hover{
+				background-color: $white;
+				border: $border-width solid $secondary;
+				color: $secondary;
+			}
+		}
+
+		.dropdown-menu{
+			border: 1px solid $gray-500;
+			padding: 0;
+			margin: 0;
+			border-radius: 0;
+			.dropdown-item + .dropdown-item{
+				border-top: 1px solid $gray-500;
+			}
+
+			@media(min-width: 1200px){
+				margin-top: 18px;
+			}
+		}
+
+		.dropdown-item{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px 15px;
+
+			.img-wrapper{
+				width: 54px;
+				height: 54px;
+				background-color: $gray-500;
+				overflow: hidden;
+				border-radius: 50%;
+			}
+
+			.shopping-cart-img-wrapper{
+				max-width: 100px;
+				height: auto;
+				overflow: hidden;
+				background-color: $gray-500;
+				border-radius: 0;
+			}
+
+			.message{
+				margin-left: 30px;
+				margin-right: 40px;
+
+				.message-author{
+					color: $dark;
+				}
+			}
+
+			.shopping-cart-message{
+				margin-left: 1rem;
+
+				.shopping-cart-title{
+					font-size: 15px;
+					color: $dark;
+					font-weight: $font-weight-medium;
+				}
+
+				.shopping-cart-price{
+					font-size: 1rem;
+					font-weight: $font-weight-medium;
+					color: $black;
+				}
+
+				.shopping-cart-cat{
+					font-size: $font-size-sm;
+					font-weight: 400;
+				}
+			}
+
+			.total-title, 
+			.total-sum{
+				font-size: 1rem;
+				font-weight: bold;
+				color: $black;
+			}
+		}
+	}
+
+	.user{
+		margin-left: 1rem;
+
+		.user-logo{
+			width: 34px;
+			height: 34px;
+			background-color: $gray-500;
+			overflow: hidden;
+			border-radius: 50%;		
+		}
+
+		.user-data{
+			font-size: 14px;
+			font-weight: $font-weight-medium;
+			color: $nero;
+			line-height: 24px;
+			margin-left: 1rem;
+
+			button{
+				font-size: 14px;
+				font-weight: $font-weight-medium;
+				background-color: transparent;	
+				color: $nero;
+
+				.fa{
+					font-size: 1rem;
+					margin-left: 5px;
+				}		
+			}
+
+			.value{
+				font-weight: bold;
+				line-height: 1rem;
+			}
+		}
+		.dropdown-item{
+			color: $cyan;
+			font-size: $font-size-sm;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		.dropdown-menu{
+			padding: 0;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			@media(min-width: 1200px){
+				margin-top: 31px;
+			}
+		}
+
+		.dropdown-menu .dropdown-item:before{
+			font-family: FontAwesome;
+			content: "\f105";
+			padding-right: 10px;
+			color: $primary;
+		}
+	}
+}

@@ -1,23 +1,21 @@
-.dropdown-toggle::before {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-right: 15px;
-    vertical-align: 1px;
-    content: "\f105";
-    font-family: 'FontAwesome';
-    color: $primary;
+.info-inner .advice .dropdown-menu, .info-inner .mail .dropdown-menu, .info-inner .acquiring .dropdown-menu  {
+    margin: 7px 0 0;
 }
 
-.dropdown-toggle::after {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 0.255em;
-    vertical-align: 0.255em;
-    content: none;
-    border-top: 0.3em solid;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0;
-    border-left: 0.3em solid transparent;
+.info-inner-user .user-data .dropdown-menu{
+    padding-top: 0.5rem;
+    margin: 23px 0 0;
+    .dropdown-item {
+        font-size: 12px;
+        line-height: 36px;
+        padding:0 2.25rem 0 1.4rem;
+    }
+}
+
+.info-inner-user .user-data .dropdown-toggle::after {
+    font-family: 'Fontawesome';
+    content: '\f107';
+    border:none;
+    margin-left: 12px;
+    vertical-align: -2px; 
 }
