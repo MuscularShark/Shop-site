@@ -1,0 +1,100 @@
+// Color System
+$primary: #8bc34a;
+$secondary: #e74c3c;
+$dark: #263238;
+$grey-900: #707070;
+$grey-800: #b5b5b5;
+$green: $primary;
+$red: $secondary;
+$cyan: #546e7a;
+
+//Fonts
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$h1-font-size: 38px;
+$h2-font-size: 30px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+
+//zayec
+$font-size-my-xl: 48px;
+$font-size-my-lg: 20px;
+$font-size-my-md: 14px;
+$font-size-my-xs: 11px;
+//
+
+
+$small-font-size: 87.5%;
+
+$headings-color: $dark;
+
+$headings-4-font-weight: bold;
+//Buttons
+
+$btn-padding-y-lg: 5px;
+$btn-padding-x-lg: 15px;
+$font-size-lg: 0.9375rem;
+
+//space
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+	(
+		0: 0,
+		1: ($spacer * 25),
+		2: ($spacer * .5),
+		3: $spacer,
+		4: ($spacer * 1,5),
+		5: ($spacer * 3),
+        10: 10px,
+        15: 15px,
+        12: 12px,
+        20: 20px,
+        24: 24px,
+		30: 30px,
+        40: 40px,
+		60: 60px,
+        100: 100px,
+		120: 120px,
+		170: 170px,
+        25: 25px,
+        90: 5rem,
+        50: 50px
+		),
+	$spacers
+	);
+
+//size
+
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    8: 8px,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    80: 80%,
+    45: 45%,
+    100: 100%,
+    120: 120px,
+    35: 35px,
+    30: 30px,
+    16: 16px,
+    178: 180px,
+    38: 80px,
+    270: 270px,
+    auto: auto
+  ),
+  $sizes
+);
+
+
+
+//Cards
+$card-spacer-y: 0.35rem;
+
+//Links
+$link-hover-color: $cyan;
+$link-hover-decoration: none;

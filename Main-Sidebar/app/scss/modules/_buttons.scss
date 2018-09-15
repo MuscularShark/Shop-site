@@ -1,0 +1,40 @@
+.btn-primary{
+    color: $white;
+    
+}
+
+.btn-info{
+    background-color: $blue;
+    border: 1px solid $blue;
+    
+}
+
+.btn-info:hover{
+    background-color: $blue-dark;
+    border: 1px solid $blue;
+    
+}
+
+.Shoping:before{
+    content: "\f07a";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+.Heart:before{
+    content: "\f004";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+}
+
+.btn-border{
+    background-color: $white;
+    border: 1px solid $gray-500;
+    color: $gray-700;
+    
+}
+
+.btn-border:hover{
+    background-color: $gray-200;
+    
+}

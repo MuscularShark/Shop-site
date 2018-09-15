@@ -1,0 +1,58 @@
+.card{
+	border-radius: 0;
+	&-body{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	&-footer{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: transparent;
+		
+		.card-author{
+			display: flex;
+			align-items: center;
+		}
+
+		.card-author-img{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: $grey-800;
+			margin-right: 10px;
+		}
+	}
+
+	&-author-name{
+		color: $cyan;
+		&hover{
+			color: $primary;
+		}
+	}
+	 &-rating-icon{
+        color: $orange;
+        transition: 0.2s;
+        cursor: pointer;
+        &.marked,
+        &:hover{
+            &:before{
+                content: '\f005';
+            }
+        }
+    }
+
+    &-rating{
+        font-size: $font-size-sm;
+    }
+
+    &-rating-number{
+        color: $cyan;
+    }
+    &-rating-value{
+        color: $dark;
+    }
+}

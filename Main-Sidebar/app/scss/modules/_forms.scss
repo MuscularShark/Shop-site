@@ -1,0 +1,50 @@
+#custom-handle span{
+	color: $gray-600;
+	display: inline-block;
+	margin-top: 20px;
+    margin-left: -.8rem;
+}
+
+#custom-handle span::before{
+	content: "$";
+}
+
+#custom-handle_2 span{
+	color: $gray-600;
+	display: inline-block;
+	margin-top: 20px;
+    margin-left: -.8rem;
+}
+
+#custom-handle_2 span::before{
+	content: "$";
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 4px solid $primary !important;
+    border-radius: 50%;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+
+.ui-state-active{
+    background-color: $white !important;
+    
+}
+
+.ui-slider-range{
+    background-color: $gray-900 !important;
+    
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.48em !important;
+    margin-left: -.6em;
+}
+
+.ui-widget-content {
+    border: 1px solid $gray-300 !important;
+    background: $gray-300 !important;
+    color: #333333;
+}

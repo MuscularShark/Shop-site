@@ -1,0 +1,38 @@
+.shopping-cart{
+    background-color: $gray-100;
+   
+    border-radius: 50%;
+}
+
+.shopping-cart:hover{
+    
+    cursor: pointer;
+    background-color: $gray-300;
+    transition: 0.3s;
+    
+}
+
+.fa-shopping-cart{
+   
+    color: $gray-600;
+    
+}
+
+.toBuy{
+    transform: translateX(50%);
+    background-color: $secondary;
+    bottom: 75%;
+    border-radius: 50%;
+    font-size: $font-size-my-xs;
+    color: $white;
+    height: 13px;
+    width: 13px;
+}
+
+.fa-search{
+    left: 92%;
+    bottom: 35%;
+    color: $gray-900;
+    
+}
+

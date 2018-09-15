@@ -1,0 +1,97 @@
+.shopping-cart{
+    background-color: $gray-100;
+   
+    border-radius: 50%;
+}
+
+.shopping-cart:hover{
+    
+    cursor: pointer;
+    background-color: $gray-300;
+    transition: 0.3s;
+    
+}
+
+.fa-shopping-cart{
+   
+    color: $gray-600;
+    
+}
+
+.toBuy{
+    transform: translateX(50%);
+    background-color: $secondary;
+    bottom: 75%;
+    border-radius: 50%;
+    font-size: $font-size-my-xs;
+    color: $white;
+    height: 13px;
+    width: 13px;
+}
+
+.fa-search{
+    left: 92%;
+    bottom: 35%;
+    color: $gray-900;
+    
+}
+
+.p-shopping::before{
+    content: "\f07a";
+    font-family: "FontAwesome";
+    padding-right: 15px;
+    color: $gray-500;
+    font-size: 20px;
+    
+}
+.lemon{
+    border-radius: 50% 30%;
+    transform:  translateY(8%)  rotate(-45deg);
+    width: 35px;
+    height: 35px;
+   
+    
+}
+
+
+[class*='icon-']::before{
+    font-family: "FontAwesome";
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    color: $white;
+    
+}
+
+.icon-smile::before{
+    content: "\f11a";
+    
+}
+
+.icon-leaves::before{
+    content: "\f18c";
+    font-size: 23px;
+    
+}
+
+.icon-lightning::before{
+    content: "\f0e7";
+    
+}
+
+.icon-F::before{
+    content: "\f180";
+    transform: translateX(-40%);
+    top: 10%;
+    
+}
+
+.icon-Y::before{
+    content: "\f157";
+     top: 10%;
+    
+}
+
+
